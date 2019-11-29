@@ -1,4 +1,5 @@
 FROM ubuntu:19.04
+#sh can't execute source command 
 SHELL ["/bin/bash", "-c"]
 RUN apt-get update \
     && apt-get -y upgrade \
